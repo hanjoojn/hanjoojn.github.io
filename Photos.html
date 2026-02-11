@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HAMED TAHIRI</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<style>
+  html {
+    font-family: "Roboto Mono", monospace;
+    font-weight:300;
+    color:white;
+  }
+
+  body {
+    background:black;
+    margin:0px;
+  }
+
+  .main {
+    height:100%;
+  }
+
+  .header {
+    width: 15%;
+    margin:5%;
+    margin-top:5%;
+    margin-right:0;
+    margin-bottom:0;
+    position:sticky;
+    top:0;
+    height:100vh;
+  }
+
+  .body {
+    width:100%;
+    margin:5%;
+    margin-bottom:0%;
+  }
+
+  .green {
+    background:#001900;
+  }
+
+  .logo-box {
+    margin-bottom:10vh;
+  }
+
+  .logo {
+    width:100px;
+    height:100px;
+    margin-bottom:2vh;
+  }
+
+  .flex {
+    display:flex;
+  }
+
+  .column {
+    flex-direction:column;
+  }
+
+  .btn {
+    margin:10px 0;
+  }
+
+  .btn-active {
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+
+  /* PAGE SPECIFIC STYLING */
+
+  .photos {
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    height:100%;
+  }
+
+  .photobox {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 15px;
+    grid-auto-flow: dense;
+  }
+
+  .photobox:nth-child(even) {
+    direction: rtl;
+  }
+
+  .photobox div:nth-child(odd) {
+    grid-column: span 1;
+  }
+
+  .photobox div:nth-child(even) {
+    grid-column: span 2;
+  }
+
+  .photobox img {
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+</style>
+</head>
+
+<body>
+  <div class="main flex">
+    <div class="header green">
+      <div class="logo-box flex column">
+        <img class="logo" src="logo-placeholder.jpg">
+        <h style="font-weight:bold;">HAMED TAHIRI</h>
+      </div>
+
+      <nav>
+        <li class="flex column">
+          <a class="btn">Work</a>
+          <a class="btn">Design</a>
+          <a class="btn btn-active">Photos</a>
+          <a class="btn">Videos</a>
+          <a class="btn">Music</a>
+        </li>
+      </nav>
+    </div>
+
+    <div class="body green">
+      <div class="photos">
+
+        <div class="photobox">
+          <div>
+            <img src="portrait-placeholder.webp">
+          </div>
+          <div>
+            <img src="landscape-placeholder.jpg">
+          </div>
+          <div>
+            <img src="portrait-placeholder.webp">
+          </div>
+          <div>
+            <img src="landscape-placeholder.jpg">
+          </div>
+        </div>
+
+        <div class="photobox">
+          <div>
+            <img src="portrait-placeholder.webp">
+          </div>
+          <div>
+            <img src="landscape-placeholder.jpg">
+          </div>
+          <div>
+            <img src="portrait-placeholder.webp">
+          </div>
+          <div>
+            <img src="landscape-placeholder.jpg">
+          </div>
+        </div>
+
+        <div class="photobox">
+          <div>
+            <img src="portrait-placeholder.webp">
+          </div>
+          <div>
+            <img src="landscape-placeholder.jpg">
+          </div>
+          <div>
+            <img src="portrait-placeholder.webp">
+          </div>
+          <div>
+            <img src="landscape-placeholder.jpg">
+          </div>
+        </div>
+        
+
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
