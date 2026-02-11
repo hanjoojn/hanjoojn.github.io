@@ -54,6 +54,8 @@ flex-direction:column;
 
 .btn {
 margin:10px 0;
+text-decoration:none;
+color:white;
 }
 
 .btn-active {
