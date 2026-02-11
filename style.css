@@ -1,1 +1,85 @@
+html {
+    font-family: "Roboto Mono", monospace;
+    font-weight:300;
+    color:white;
+  }
 
+  body {
+    background:black;
+    margin:0px;
+  }
+
+  .main {
+    height:100vh;
+    overflow:hidden;
+  }
+
+  .header {
+    width: 15%;
+    margin:5%;
+    margin-top:5%;
+    margin-right:0;
+    margin-bottom:0;
+    position:sticky;
+    top:0;
+    height:100vh;
+  }
+
+  .body {
+    width:100%;
+    margin:5%;
+    margin-bottom:0%;
+  }
+
+  .green {
+    background:#001900;
+  }
+
+  .logo-box {
+    margin-bottom:10vh;
+  }
+
+  .logo {
+    width:100px;
+    height:100px;
+    margin-bottom:2vh;
+  }
+
+  .flex {
+    display:flex;
+  }
+
+  .column {
+    flex-direction:column;
+  }
+
+  .btn {
+    margin:10px 0;
+  }
+
+  .btn-active {
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+
+  /* PAGE SPECIFIC STYLING */
+
+  .work {
+    margin-bottom:5vh;
+  }
+
+  .company {
+    margin:0;
+    font-size:medium;
+    margin-bottom:5px;
+  }
+
+  .time {
+    margin-top:0;
+    font-size:small;
+  }
+
+  .description {
+    font-weight:300;
+    font-size:medium;
+  }
