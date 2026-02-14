@@ -88,17 +88,18 @@ font-weight:bold;
 /* PAGE SPECIFIC STYLING */
 
 .work {
-margin-bottom:5vh;
+margin-bottom:100px;
 }
 
 .company {
 margin:0;
 font-size:medium;
-margin-bottom:5px;
+margin-bottom:12.5px;
 }
 
 .time {
 margin-top:0;
+margin-bottom:25px;
 font-size:small;
 }
 
