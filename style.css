@@ -191,19 +191,24 @@ flex-wrap: wrap;
 gap: 15px;
 }
 
+.gridbox iframe {
+display:block;
+}
+
 .gridbox div {
 flex-basis: 30%;
 flex-grow: 1;
 }
 
 .gridbox p {
-margin-top:0;
+margin-top:12.5px;
+margin-bottom:0;
 }
 
 .personal,
 .production,
 .mixing {
-margin-bottom:5%;
+margin-bottom:100px;
 }
 
 .personal h2,
