@@ -164,7 +164,8 @@ object-fit:cover;
 .videobox {
 display:grid;
 grid-template-columns: repeat(3, minmax(0, 1fr));
-gap:15px;
+row-gap:25px;
+column-gap:15px;
 }
 
 .videobox div {
@@ -180,6 +181,7 @@ display: block;
 }
 
 .videobox p {
+margin-top:12.5px;
 margin-bottom:0;
 }
 
