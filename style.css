@@ -90,6 +90,10 @@ text-transform:uppercase;
 font-weight:bold;
 }
 
+.sub-btns {
+text-indent:30px;
+}
+
 /* PAGE SPECIFIC STYLING */
 
 .work {
