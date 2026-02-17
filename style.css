@@ -5,7 +5,7 @@ color:white;
 scroll-behavior:smooth;
 }
 
-body {
+/*body {
 background:black;
 margin:0px;
 animation-name: fadeIn;
@@ -22,7 +22,7 @@ opacity: 0;
 to {
 opacity: 1;
 }
-}
+}*/
 
 h1, 
 h2,
