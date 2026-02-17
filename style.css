@@ -161,6 +161,7 @@ display:block;
 display:flex;
 gap:25px;
 flex-wrap:wrap;
+margin-bottom:100px;
 }
 
 .photobox {
@@ -260,10 +261,6 @@ margin-bottom:83px;
 
 .music {
 margin-bottom:7px;
-}
-
-.photos {
-margin-bottom:100px;
 }
 
 .privacyPolicy {
