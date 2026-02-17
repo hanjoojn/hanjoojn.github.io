@@ -81,7 +81,7 @@ flex-direction:column;
 }
 
 .btn {
-margin-bottom:12px 0;
+margin-bottom:17px;
 text-decoration:none;
 color:white;
 }
@@ -215,7 +215,7 @@ flex-grow: 1;
 }
 
 .gridbox p {
-margin-top:8px;
+margin-top:9px;
 margin-bottom:0;
 }
 
