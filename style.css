@@ -95,9 +95,9 @@ font-weight:bold;
 text-indent:25px;
 }
 
-.flex.column.sub-btns > .btn {
-    margin-top:-0.5px;
-    margin-bottom:24.5px;
+.flex.column.sub-btns {
+    margin-top:-12.5px;
+    margin-bottom:25px;
 }
 
 .href-section {
