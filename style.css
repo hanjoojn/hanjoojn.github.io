@@ -94,6 +94,10 @@ font-weight:bold;
 text-indent:30px;
 }
 
+.href-section {
+scroll-margin-top:100px;
+}
+
 /* PAGE SPECIFIC STYLING */
 
 .work {
