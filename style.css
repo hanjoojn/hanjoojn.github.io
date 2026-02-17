@@ -100,6 +100,10 @@ text-indent:25px;
     margin-bottom:25px;
 }
 
+.flex.column.sub-btns > .btn {
+    margin-bottom: 12.5px;
+}
+
 .href-section {
 scroll-margin-top:100px;
 }
