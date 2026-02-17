@@ -87,7 +87,6 @@ color:white;
 }
 
 .btn-active {
-margin-bottom:13px;
 text-transform:uppercase;
 font-weight:bold;
 }
@@ -97,7 +96,8 @@ text-indent:25px;
 }
 
 .flex.column.sub-btns > .btn {
-    margin-bottom:12px;
+    margin-top:-0.5px;
+    margin-bottom:24.5px;
 }
 
 .href-section {
