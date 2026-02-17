@@ -5,14 +5,16 @@ color:white;
 scroll-behavior:smooth;
 }
 
-/*body {
+body {
 background:black;
 margin:0px;
+/*
 animation-name: fadeIn;
 animation-duration: 2s;
 animation-timing-function: ease-in-out;
 animation-fill-mode: forwards;
 -webkit-animation: fadeIn 2s ease-in-out forwards;
+*/
 }
 
 @keyframes fadeIn {
