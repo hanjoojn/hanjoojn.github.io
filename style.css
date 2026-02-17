@@ -87,12 +87,14 @@ color:white;
 }
 
 .btn-active {
+margin-bottom:16px;
 text-transform:uppercase;
 font-weight:bold;
 }
 
 .sub-btns {
 text-indent:30px;
+margin-bottom:16px;
 }
 
 .href-section {
