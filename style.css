@@ -124,9 +124,10 @@ text-transform:uppercase;
 }
 
 .design {
-flex-wrap:wrap;
 gap:25px;
 margin-bottom:94px;
+display:grid;
+grid-template-columns:33% 33% 33%;
 }
 
 .design div {
