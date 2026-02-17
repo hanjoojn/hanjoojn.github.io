@@ -58,11 +58,14 @@ background:black;
 
 .logo-box {
 margin-bottom:10vh;
+width:fit-content;
+}
+
+.logo-box h {
+    width:fit-content;
 }
 
 .logo {
-width:155px;
-height:115px;
 margin-bottom:2vh;
 }
 
