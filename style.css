@@ -129,7 +129,7 @@ font-size:medium;
 
 .body h2 {
 margin:0;
-margin-bottom:25px;
+margin-bottom:19px;
 }
 
 .design {
@@ -157,7 +157,7 @@ flex-wrap:wrap;
 .photobox {
 display: grid;
 grid-template-columns: auto auto auto auto auto auto;
-gap: 15px;
+gap: 25px;
 grid-auto-flow: dense;
 }
 
