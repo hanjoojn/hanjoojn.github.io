@@ -189,11 +189,6 @@ display: grid;
 grid-template-columns:repeat(3, 1fr);
 }
 
-.videobox div {
-height:auto;
-aspect-ratio: 16 / 9;
-}
-
 .videobox iframe {
 width:100%;
 height:100%;
