@@ -201,6 +201,11 @@ margin-top:12.5px;
 margin-bottom:0;
 }
 
+.videobox div {
+height:auto;
+aspect-ratio: 16 / 9;
+}
+
 .gridbox {
 gap: 25px;
 margin-bottom: 94px;
