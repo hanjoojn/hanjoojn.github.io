@@ -68,7 +68,7 @@ flex-direction:column;
 }
 
 .btn {
-margin-bottom:25.5px;
+margin-bottom:28px;
 text-decoration:none;
 color:white;
 }
@@ -83,12 +83,12 @@ text-indent:25px;
 }
 
 .flex.column.sub-btns {
-margin-top:-12.5px;
-margin-bottom:12.5px;
+margin-top:-13px;
+margin-bottom:13px;
 }
 
 .flex.column.sub-btns > .btn {
-margin-bottom: 12.5px;
+margin-bottom: 15px;
 }
 
 .href-section {
@@ -120,7 +120,7 @@ font-size:medium;
 
 .body h2 {
 margin:0;
-margin-bottom:20px;
+margin-bottom:21px;
 text-transform:uppercase;
 }
 
@@ -208,7 +208,7 @@ aspect-ratio: 16 / 9;
 
 .gridbox {
 gap: 25px;
-margin-bottom: 94px;
+margin-bottom: 95px;
 display: grid;
 grid-template-columns:repeat(3, 1fr);
 }
@@ -223,8 +223,8 @@ flex-grow: 1;
 }
 
 .gridbox p {
-margin-top:7.5px;
-margin-bottom:-3px;
+margin-top:10px;
+margin-bottom:-2px;
 }
 
 .music {
