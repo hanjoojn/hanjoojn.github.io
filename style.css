@@ -120,6 +120,7 @@ font-size:medium;
 
 .body h2 {
 margin:0;
+margin-left:-1px;
 margin-bottom:21px;
 text-transform:uppercase;
 }
@@ -141,8 +142,12 @@ width:100%;
 display:block;
 }
 
+#design1 {
+margin-top:-6px;
+}
+
 #design4 {
-margin-bottom:99px;
+margin-bottom:100px;
 }
 
 .photos {
