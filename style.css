@@ -183,11 +183,10 @@ margin-bottom:97px;
 ]
 
 .videobox {
+gap: 25px;
+margin-bottom: 94px;
 display: grid;
-grid-template-columns: auto auto auto auto auto auto;
-row-gap:18px;
-column-gap:25px;
-grid-auto-flow: dense;
+grid-template-columns: 33% 33% 33%
 }
 
 .videobox div {
@@ -208,9 +207,10 @@ margin-bottom:0;
 }
 
 .gridbox {
-display: flex;
-flex-wrap: wrap;
 gap: 25px;
+margin-bottom: 94px;
+display: grid;
+grid-template-columns: 33% 33% 33%
 }
 
 .gridbox iframe {
