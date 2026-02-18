@@ -25,8 +25,8 @@ font-size:12px;
 
 .header {
 width: 15%;
-margin-left: 128px;
-padding-top: 128px;
+margin-left: 100px;
+padding-top: 100px;
 margin-right: 0;
 margin-bottom: 0;
 position: sticky;
@@ -37,7 +37,7 @@ height: 100%;
 .body {
 width:100%;
 height:100%;
-margin:128px;
+margin:100px;
 margin-left:64px;
 margin-bottom:0px;
 }
@@ -79,7 +79,7 @@ font-weight:bold;
 }
 
 .sub-btns {
-text-indent:32px;
+text-indent:25px;
 }
 
 .flex.column.sub-btns {
@@ -92,7 +92,7 @@ margin-bottom: 12.5px;
 }
 
 .href-section {
-scroll-margin-top:128px;
+scroll-margin-top:100px;
 }
 
 /* PAGE SPECIFIC STYLING */
@@ -125,7 +125,7 @@ text-transform:uppercase;
 }
 
 .design {
-gap:32px;
+gap:25px;
 margin-bottom:94px;
 display:grid;
 grid-template-columns:repeat(3, 1fr);
@@ -142,20 +142,20 @@ display:block;
 }
 
 #design4 {
-margin-bottom:128px;
+margin-bottom:99px;
 }
 
 .photos {
 display:flex;
-gap:32px;
+gap:25px;
 flex-wrap:wrap;
-margin-bottom:128px;
+margin-bottom:100px;
 }
 
 .photobox {
 display: grid;
 grid-template-columns: auto auto auto auto auto auto;
-gap: 32px;
+gap: 25px;
 grid-auto-flow: dense;
 }
 
@@ -183,7 +183,7 @@ margin-bottom:97px;
 }
 
 .videobox {
-gap: 32px;
+gap: 25px;
 margin-bottom: 94px;
 display: grid;
 grid-template-columns:repeat(3, 1fr);
@@ -207,7 +207,7 @@ aspect-ratio: 16 / 9;
 }
 
 .gridbox {
-gap: 32px;
+gap: 25px;
 margin-bottom: 94px;
 display: grid;
 grid-template-columns:repeat(3, 1fr);
