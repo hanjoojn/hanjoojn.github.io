@@ -110,6 +110,10 @@ margin-top:0;
 margin-bottom:25px;
 }
 
+.time p {
+font-size:11px;
+}
+
 .description {
 font-weight:300;
 font-size:medium;
