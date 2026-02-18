@@ -153,9 +153,8 @@ margin-bottom:100px;
 
 .photobox {
 display: grid;
-grid-template-columns: auto auto auto auto auto auto;
+grid-template-columns: repeat(4, 1fr);
 gap: 25px;
-grid-auto-flow: dense;
 }
 
 .photobox:nth-child(even) {
@@ -171,10 +170,9 @@ grid-column: span 2;
 }
 
 .photobox img {
-display:block;
-width:100%;
-height:100%;
-object-fit:cover;
+width: 100%;
+height: auto;
+display: block;
 }
 
 .videos {
