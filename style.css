@@ -3,6 +3,9 @@ font-family: "Roboto Mono", monospace;
 font-weight:300;
 color:white;
 scroll-behavior:smooth;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
 
 body {
@@ -231,16 +234,16 @@ margin-bottom:7px;
 .personal,
 .production,
 .mixing {
-  scroll-margin-top: 100px;
-  margin-bottom: 94px;
+scroll-margin-top: 100px;
+margin-bottom: 94px;
 }
 
 .personal {
-  margin-top: -6px;
+margin-top: -6px;
 }
 
 .mixing {
-  margin-bottom: 100px;
+margin-bottom: 100px;
 }
 
 .personal h2,
