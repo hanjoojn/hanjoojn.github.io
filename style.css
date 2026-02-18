@@ -102,22 +102,17 @@ margin-left: -2px;
 margin-bottom:88px;
 }
 
+/*
 .company {
 margin:0;
 margin-bottom:12.5px;
 }
+*/
 
 .time {
 margin-top:-4px;
 margin-bottom:30px;
 }
-
-/*
-.description {
-font-weight:300;
-font-size:medium;
-}
-*/
 
 .body h2 {
 margin:0;
@@ -238,14 +233,18 @@ margin-bottom:7px;
 }
 
 .personal,
-.production {
-margin-bottom:94px;
-scroll-margin-top:100px;
+.production,
+.mixing {
+  scroll-margin-top: 100px;
+  margin-bottom: 94px;
+}
+
+.personal {
+  margin-top: -6px;
 }
 
 .mixing {
-margin-bottom:100px;
-scroll-margin-top:100px;
+  margin-bottom: 100px;
 }
 
 .personal h2,
