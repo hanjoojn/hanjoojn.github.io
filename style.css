@@ -2,10 +2,12 @@ html {
 font-family: "Roboto Mono", monospace;
 font-weight:300;
 color:white;
-scroll-behavior:smooth;
--webkit-user-select: none;
--ms-user-select: none;
+scroll-behavior:smooth;  
 user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
 }
 
 body {
