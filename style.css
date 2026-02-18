@@ -183,10 +183,11 @@ margin-bottom:97px;
 ]
 
 .videobox {
-display:grid;
-grid-template-columns: repeat(3, minmax(0, 1fr));
+display: grid;
+grid-template-columns: auto auto auto auto auto auto;
 row-gap:18px;
 column-gap:25px;
+grid-auto-flow: dense;
 }
 
 .videobox div {
