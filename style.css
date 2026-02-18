@@ -184,10 +184,12 @@ margin-bottom:97px;
 }
 
 .videobox {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
 gap: 25px;
 margin-bottom: 94px;
-display: grid;
-grid-template-columns:repeat(3, 1fr);
+width: 100%;
+box-sizing: border-box;
 }
 
 .videobox iframe {
