@@ -16,7 +16,7 @@ margin:0px;
 }
 
 body.first-visit {
-  animation: fadeIn 1s ease forwards;
+  animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {
