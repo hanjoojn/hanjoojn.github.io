@@ -12,41 +12,47 @@
 <script>
 const username = "hanjoojn";
 const repo = "hanjoojn.github.io";
-const folder = "Photos"; // change to your folder name
+const folder = "Photos";
 
-async function loadImages(folder = "images") {
-  const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
+const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
 
+async function loadImages() {
   try {
     const response = await fetch(apiUrl);
+
+    if (!response.ok) {
+      throw new Error("GitHub API error");
+    }
+
     const files = await response.json();
     const gallery = document.getElementById("photobox");
 
-    const images = files.filter(file =>
-      file.type === "file" &&
-      /\.(jpg|jpeg|png|webp|gif)$/i.test(file.name)
-    );
+    files.filter(file =>
+        file.type === "file" &&
+        /\.(jpg|jpeg|png|gif|webp)$/i.test(file.name)
+      )
+    
+    for (let i = 0; i < files.length; i += 3) {
 
-    for (let i = 0; i < images.length; i += 3) {
+    // Create row wrapper
+    const row = document.createElement("div");
+    row.classList.add("gallery-row");
 
-      // Create row wrapper
-      const row = document.createElement("div");
-      row.classList.add("photobox");
+    // Get next 3 images
+    const group = files.slice(i, i + 3);
 
-      // Get next 3 images
-      const group = images.slice(i, i + 3);
+    group.forEach(file => {
+      const wrapper = document.createElement("div");
+      wrapper.classList.add("gallery-item");
 
-      group.forEach(file => {
-        const wrapper = document.createElement("div");
+      const img = document.createElement("img");
+      img.src = file.download_url;
+      img.alt = file.name;
+      img.loading = "lazy";
 
-        const img = document.createElement("img");
-        img.src = file.download_url;
-        img.alt = file.name;
-        img.loading = "lazy";
-
-        wrapper.appendChild(img);
-        row.appendChild(wrapper);
-      });
+      wrapper.appendChild(img);
+      row.appendChild(wrapper);
+    });
 
       gallery.appendChild(row);
     }
@@ -183,6 +189,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
