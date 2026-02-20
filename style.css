@@ -195,6 +195,10 @@ border:0;
 display:block;
 }
 
+.videobox video {
+display:block;
+}
+
 .videobox p {
 margin-top:9px;
 margin-bottom:-6px;
