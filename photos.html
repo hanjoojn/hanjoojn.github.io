@@ -14,33 +14,43 @@ const username = "hanjoojn";
 const repo = "hanjoojn.github.io";
 const folder = "Photos"; // change to your folder name
 
-const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
+async function loadImages(folder = "images") {
+  const { username, repo } = getGitHubInfo();
+  const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
 
-async function loadImages() {
   try {
     const response = await fetch(apiUrl);
-
-    if (!response.ok) {
-      throw new Error("GitHub API error");
-    }
-
     const files = await response.json();
-    const photobox = document.getElementById("photobox");
+    const gallery = document.getElementById("photobox");
 
-    files
-      .filter(file =>
-        file.type === "file" &&
-        /\.(jpg|jpeg|png|gif|webp)$/i.test(file.name)
-      )
-      .forEach(file => {
+    const images = files.filter(file =>
+      file.type === "file" &&
+      /\.(jpg|jpeg|png|webp|gif)$/i.test(file.name)
+    );
+
+    for (let i = 0; i < images.length; i += 3) {
+
+      // Create row wrapper
+      const row = document.createElement("div");
+      row.classList.add("photobox");
+
+      // Get next 3 images
+      const group = images.slice(i, i + 3);
+
+      group.forEach(file => {
         const wrapper = document.createElement("div");
+
         const img = document.createElement("img");
         img.src = file.download_url;
         img.alt = file.name;
-        img.loading = "lazy"; // performance boost
+        img.loading = "lazy";
+
         wrapper.appendChild(img);
-        photobox.appendChild(wrapper);
+        row.appendChild(wrapper);
       });
+
+      gallery.appendChild(row);
+    }
 
   } catch (error) {
     console.error("Error loading images:", error);
@@ -72,8 +82,7 @@ loadImages();
 
     <div class="body green">
       <div id="photobox" class="photos">
-        <!-- manual code
-
+        <!--
         <div class="photobox">
           <div>
             <img loading="lazy" src="Photos/DSC03084.jpg">
@@ -170,12 +179,12 @@ loadImages();
           </div>
         </div>
         -->
-        
       </div>
     </div>
   </div>
 </body>
 </html>
+
 
 
 
