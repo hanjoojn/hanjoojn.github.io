@@ -15,7 +15,6 @@ const repo = "hanjoojn.github.io";
 const folder = "Photos"; // change to your folder name
 
 async function loadImages(folder = "images") {
-  const { username, repo } = getGitHubInfo();
   const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
 
   try {
@@ -184,6 +183,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
