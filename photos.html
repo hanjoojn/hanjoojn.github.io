@@ -36,14 +36,13 @@ async function loadImages() {
 
     // Create row wrapper
     const row = document.createElement("div");
-    row.classList.add("gallery-row");
+    row.classList.add("photobox");
 
     // Get next 3 images
     const group = files.slice(i, i + 3);
 
     group.forEach(file => {
       const wrapper = document.createElement("div");
-      wrapper.classList.add("gallery-item");
 
       const img = document.createElement("img");
       img.src = file.download_url;
@@ -189,6 +188,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
