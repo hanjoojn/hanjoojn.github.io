@@ -9,6 +9,44 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 <script src="main.js"></script>
+<script>
+const username = "hanjoojn";
+const repo = "hanjoojn.github.io";
+const folder = "Photos"; // change to your folder name
+
+const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
+
+async function loadImages() {
+  try {
+    const response = await fetch(apiUrl);
+
+    if (!response.ok) {
+      throw new Error("GitHub API error");
+    }
+
+    const files = await response.json();
+    const photobox = document.getElementById("photobox");
+
+    files
+      .filter(file =>
+        file.type === "file" &&
+        /\.(jpg|jpeg|png|gif|webp)$/i.test(file.name)
+      )
+      .forEach(file => {
+        const img = document.createElement("img");
+        img.src = file.download_url;
+        img.alt = file.name;
+        img.loading = "lazy"; // performance boost
+        photobox.appendChild(img);
+      });
+
+  } catch (error) {
+    console.error("Error loading images:", error);
+  }
+}
+
+loadImages();
+</script>
 </head>
 
 <body>
@@ -31,7 +69,7 @@
     </div>
 
     <div class="body green">
-      <div class="photos">
+      <div id="photobox" class="photos">
 
         <div class="photobox">
           <div>
@@ -134,6 +172,7 @@
   </div>
 </body>
 </html>
+
 
 
 
