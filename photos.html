@@ -33,11 +33,13 @@ async function loadImages() {
         /\.(jpg|jpeg|png|gif|webp)$/i.test(file.name)
       )
       .forEach(file => {
+        const wrapper = document.createElement("div");
         const img = document.createElement("img");
         img.src = file.download_url;
         img.alt = file.name;
         img.loading = "lazy"; // performance boost
-        photobox.appendChild(img);
+        wrapper.appendChild(img);
+        photobox.appendChild(wrapper);
       });
 
   } catch (error) {
@@ -174,6 +176,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
