@@ -167,6 +167,7 @@ margin-bottom:100px;
 .photobox {
   display: flex;
   gap: 25px;
+  width:100%;
 }
 
 .photobox img {
