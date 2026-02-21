@@ -119,8 +119,9 @@ scroll-margin-top:100px;
 /* PAGE SPECIFIC STYLING */
 
 .work {
+margin-top:-6px;
 margin-left:-2px;
-margin-bottom:90px;
+margin-bottom:96px;
 }
 
 .time {
@@ -261,6 +262,6 @@ aspect-ratio:16 / 9;
 display:none!important;
 }
 
-#warrlockllc, #\32\.20\.03, .personal {
+#\32\.20\.03, .personal {
 margin-top:-6px;
 }
