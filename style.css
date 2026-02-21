@@ -128,10 +128,6 @@ margin-top:-16px;
 margin-bottom:17px;
 }
 
-#warrlockllc {
-margin-top:-6px;
-}
-
 .body h2 {
 margin:0;
 margin-left:-1px;
@@ -154,10 +150,6 @@ flex-grow:1;
 .design img {
 width:100%;
 display:block;
-}
-
-#\32\.20\.03 {
-margin-top:-6px;
 }
 
 #soufpaw {
@@ -249,10 +241,6 @@ scroll-margin-top:100px;
 margin-bottom:94px;
 }
 
-.personal {
-margin-top:-6px;
-}
-
 .mixing {
 margin-bottom:100px;
 }
@@ -271,4 +259,8 @@ aspect-ratio:16 / 9;
 
 .privacyPolicy {
 display:none!important;
+}
+
+#warrlockllc, #\32\.20\.03, .personal {
+margin-top:-6px;
 }
