@@ -77,12 +77,12 @@ background:black;
 }
 
 .logo-box {
-margin-bottom:89px;
+margin-bottom:calc(89 * var(--vh-scale));
 width:fit-content;
 }
 
 .logo {
-margin-bottom:44px;
+margin-bottom:calc(44 * var(--vw-scale));
 }
 
 .flex {
@@ -94,7 +94,7 @@ flex-direction:column;
 }
 
 .btn {
-margin-bottom:28px;
+margin-bottom:calc(28 * var(--vh-scale));
 text-decoration:none;
 color:white;
 }
@@ -105,20 +105,20 @@ font-weight:bold;
 }
 
 .sub-btns {
-text-indent:25px;
+text-indent:calc(25 * var(--vw-scale));
 }
 
 .flex.column.sub-btns {
-margin-top:-13px;
-margin-bottom:13px;
+margin-top:calc(-13 * var(--vh-scale));
+margin-bottom:calc(13 * var(--vh-scale));
 }
 
 .flex.column.sub-btns > .btn {
-margin-bottom:15px;
+margin-bottom:calc(15 * var(--vh-scale));
 }
 
 .href-section {
-scroll-margin-top:100px;
+scroll-margin-top:calc(100 * var(--vh-scale));
 }
 
 /* PAGE SPECIFIC STYLING */
