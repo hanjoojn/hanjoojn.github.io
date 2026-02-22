@@ -55,8 +55,8 @@ font-size:calc(12 * var(--vh-scale));
 
 .header {
 width:15%;
-margin-left:3.9vw;
-padding-top:6.9444vh;
+margin-left:calc(100 * var(--vw-scale));
+padding-top:calc(100 * var(--vh-scale));
 margin-right:0;
 margin-bottom:0;
 position:sticky;
