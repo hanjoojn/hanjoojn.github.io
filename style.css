@@ -1,3 +1,8 @@
+:root {
+  --vw-scale: calc(100vw / 2560);
+  --vh-scale: calc(100vh / 1440);
+}
+
 * {
 user-select:none;
 -webkit-user-select:none;
@@ -50,8 +55,8 @@ font-size:0.8333vh;
 
 .header {
 width:15%;
-margin-left:100px;
-padding-top:100px;
+margin-left:3.9vw;
+padding-top:6.9444vh;
 margin-right:0;
 margin-bottom:0;
 position:sticky;
