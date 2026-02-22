@@ -125,26 +125,26 @@ scroll-margin-top:calc(100 * var(--vh-scale));
 /* PAGE SPECIFIC STYLING */
 
 .work {
-margin-top:-6px;
-margin-left:-2px;
-margin-bottom:96px;
+margin-top:calc(-6 * var(--vh-scale));
+margin-left:calc(-2 * var(--vw-scale));
+margin-bottom:calc(96 * var(--vh-scale));
 }
 
 .time {
-margin-top:-16px;
-margin-bottom:17px;
+margin-top:calc(-16 * var(--vh-scale));
+margin-bottom:calc(17 * var(--vh-scale));
 }
 
 .body h2 {
 margin:0;
-margin-left:-1px;
-margin-bottom:21px;
+margin-left:calc(-1 * var(--vw-scale));
+margin-bottom:calc(21 * var(--vh-scale));
 text-transform:uppercase;
 }
 
 .design {
 gap:25px;
-margin-bottom:94px;
+margin-bottom:calc(94 * var(--vh-scale));
 display:grid;
 grid-template-columns:repeat(3, 1fr);
 }
