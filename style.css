@@ -41,11 +41,11 @@ opacity:1;
 }
 
 h1, h2, a, .logo-box h {
-  font-size:18px;
+  font-size:1.25vh;
 }
 
 p {
-font-size:12px;
+font-size:0.8333vh;
 }
 
 .header {
