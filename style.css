@@ -46,11 +46,11 @@ opacity:1;
 }
 
 h1, h2, a, .logo-box h {
-  font-size:1.25vh;
+font-size:calc(18 * var(--vh-scale));
 }
 
 p {
-font-size:0.8333vh;
+font-size:calc(12 * var(--vh-scale));
 }
 
 .header {
