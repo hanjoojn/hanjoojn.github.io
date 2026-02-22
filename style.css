@@ -67,8 +67,9 @@ height:100%;
 .body {
 width:100%;
 height:100%;
-margin:100px;
-margin-left:28px;
+margin-top:calc(100 * var(--vh-scale))
+margin-right:calc(100 * var(--vw-scale))
+margin-left:calc(28 * var(--vw-scale));
 margin-bottom:0px;
 }
 
