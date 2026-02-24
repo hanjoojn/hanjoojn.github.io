@@ -48,12 +48,12 @@ async function loadImages() {
       img.onload = function () {
         img.width = img.naturalWidth;
         img.height = img.naturalHeight;
-        wrapper.appendChild(img);
       };
       img.src = file.download_url;
       img.alt = file.name;
       img.loading = "lazy";
 
+      wrapper.appendChild(img);
       row.appendChild(wrapper);
     });
 
@@ -192,6 +192,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
