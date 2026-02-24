@@ -180,6 +180,11 @@ row-gap:calc(25 * var(--vh-scale));
 width:100%;
 }
 
+.photobox div {
+width:100%;
+height:auto;
+}
+
 .photobox img {
 width:100%;
 height:100%;
