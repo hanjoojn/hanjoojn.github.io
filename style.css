@@ -106,7 +106,7 @@ font-weight:bold;
 }
 
 .sub-btns {
-text-indent:calc(25 * var(--vw-scale));
+margin-left:calc(25 * var(--vw-scale));
 }
 
 .flex.column.sub-btns {
