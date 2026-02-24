@@ -49,6 +49,8 @@ async function loadImages() {
         img.width = img.naturalWidth;
         img.height = img.naturalHeight;
       };
+      const ratio = img.naturalWidth / img.naturalHeight;
+      wrapper.style.aspectRatio = ratio;
       img.src = file.download_url;
       img.alt = file.name;
       img.loading = "lazy";
@@ -193,6 +195,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
