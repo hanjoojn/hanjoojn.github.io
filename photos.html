@@ -52,6 +52,7 @@ async function loadImages() {
       img.src = file.download_url;
       img.alt = file.name;
       img.loading = "lazy";
+      img.decoding = "async";
 
       wrapper.appendChild(img);
       row.appendChild(wrapper);
@@ -192,6 +193,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
