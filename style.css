@@ -143,7 +143,8 @@ text-transform:uppercase;
 }
 
 .design {
-gap:25px;
+column-gap:calc(25 * var(--vw-scale));
+row-gap:calc(25 * var(--vh-scale));
 margin-bottom:calc(94 * var(--vh-scale));
 display:grid;
 grid-template-columns:repeat(3, 1fr);
@@ -160,19 +161,21 @@ display:block;
 }
 
 #soufpaw {
-margin-bottom:100px;
+margin-bottom:calc(100 * var(--vh-scale));
 }
 
 .photos {
 display:flex;
-gap:25px;
+column-gap:calc(25 * var(--vw-scale));
+row-gap:calc(25 * var(--vh-scale));
 flex-wrap:wrap;
-margin-bottom:100px;
+margin-bottom:calc(100 * var(--vh-scale));
 }
 
 .photobox {
 display:flex;
-gap:25px;
+column-gap:calc(25 * var(--vw-scale));
+row-gap:calc(25 * var(--vh-scale));
 width:100%;
 }
 
@@ -184,15 +187,16 @@ object-fit:cover;
 }
 
 .videos {
-margin-left:-2px;
-margin-bottom:100px;
+margin-left:calc(-2 * var(--vw-scale));
+margin-bottom:calc(100 * var(--vh-scale));
 }
 
 .videobox {
 display:grid;
 grid-template-columns:repeat(3, minmax(0, 1fr));
-gap:25px;
-margin-bottom:94px;
+column-gap:calc(25 * var(--vw-scale));
+row-gap:calc(25 * var(--vh-scale));
+margin-bottom:calc(94 * var(--vh-scale));
 width:100%;
 box-sizing:border-box;
 }
@@ -209,8 +213,8 @@ display:block;
 }
 
 .videobox p {
-margin-top:9px;
-margin-bottom:-2px;
+margin-top:calc(9 * var(--vh-scale));
+margin-bottom:calc(-2 * var(--vh-scale));
 }
 
 .videobox div {
@@ -237,21 +241,21 @@ flex-grow:1;
 }
 
 .gridbox p {
-margin-top:10px;
-margin-bottom:-2px;
+margin-top:calc(10 * var(--vh-scale));
+margin-bottom:calc(-2 * var(--vh-scale));
 }
 
 .music {
-margin-bottom:7px;
+margin-bottom:calc(7 * var(--vh-scale));
 }
 
 .personal, .production, .mixing {
-scroll-margin-top:100px;
-margin-bottom:94px;
+scroll-margin-top:calc(100 * var(--vh-scale));
+margin-bottom:calc(94 * var(--vh-scale));
 }
 
 .mixing {
-margin-bottom:100px;
+margin-bottom:calc(100 * var(--vh-scale));
 }
 
 .personal h2, .production h2, .mixing h2 {
@@ -271,5 +275,5 @@ display:none!important;
 }
 
 #\32\.20\.03, .personal {
-margin-top:-6px;
+margin-top:calc(-6 * var(--vh-scale));
 }
