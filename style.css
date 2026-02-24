@@ -135,6 +135,10 @@ margin-top:calc(-16 * var(--vh-scale));
 margin-bottom:calc(17 * var(--vh-scale));
 }
 
+.description {
+font-size:calc(20 * var(--vh-scale));
+}
+
 .body h2 {
 margin:0;
 margin-left:calc(-1 * var(--vw-scale));
