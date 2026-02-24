@@ -181,7 +181,7 @@ width:100%;
 }
 
 .photobox div {
-width:fit-content;
+width:auto;
 height:auto;
 }
 
