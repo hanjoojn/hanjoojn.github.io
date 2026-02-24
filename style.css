@@ -219,14 +219,16 @@ aspect-ratio:16 / 9;
 }
 
 .gridbox {
-gap:25px;
-margin-bottom:95px;
+column-gap:calc(25 * var(--vw-scale));
+row-gap:calc(25 * var(--vh-scale));
+margin-bottom:calc(95 * var(--vh-scale));
 display:grid;
 grid-template-columns:repeat(3, 1fr);
 }
 
 .gridbox iframe {
 display:block;
+height:calc(178.5 * var(--vh-scale));
 }
 
 .gridbox div {
