@@ -42,6 +42,7 @@ async function loadImages() {
     const group = files.slice(i, i + 3);
 
     group.forEach(file => {
+      const fragment = document.createDocumentFragment();
       const wrapper = document.createElement("div");
 
       const img = document.createElement("img");
@@ -55,9 +56,10 @@ async function loadImages() {
 
       wrapper.appendChild(img);
       row.appendChild(wrapper);
+      fragment.appendChild(row);
     });
 
-      gallery.appendChild(row);
+      gallery.appendChild(fragment);
     }
 
   } catch (error) {
@@ -192,6 +194,7 @@ loadImages();
   </div>
 </body>
 </html>
+
 
 
 
