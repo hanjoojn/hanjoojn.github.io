@@ -73,6 +73,7 @@ margin-top:calc(100 * var(--vh-scale));
 margin-right:calc(100 * var(--vw-scale));
 margin-left:calc(28 * var(--vw-scale));
 margin-bottom:0px;
+position:relative;
 }
 
 .green {
