@@ -53,6 +53,10 @@ p {
 font-size:calc(14 * var(--vh-scale));
 }
 
+li {
+margin-top:15px;
+}
+
 .header {
 width:calc(384 * var(--vw-scale));
 min-width:calc(100 * var(--vw-scale));
