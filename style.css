@@ -333,7 +333,8 @@ margin-top:calc(-6 * var(--vh-scale));
   }
   /* !! PAGE SPECIFIC STYLING */
   .design,
-  .gridbox {
+  .gridbox,
+  .videobox {
     grid-template-columns:1fr;
   }
   .videobox div {
