@@ -328,7 +328,8 @@ margin-top:calc(-6 * var(--vh-scale));
   .body {
     margin-left:30px;
   }
-  /* !! MUSIC PAGE */
+  /* !! PAGE SPECIFIC STYLING */
+  .design,
   .gridbox {
     grid-template-columns:1fr;
   }
