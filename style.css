@@ -325,4 +325,11 @@ margin-top:calc(-6 * var(--vh-scale));
   .flex.column.sub-btns {
     margin-left:12.5px;
   }
+  /* !! MUSIC PAGE */
+  .gridbox {
+    grid-template-columns:1fr;
+  }
+  .gridbox p {
+    font-size:9px;
+  }
 }
