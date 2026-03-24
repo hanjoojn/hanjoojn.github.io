@@ -328,12 +328,18 @@ margin-top:calc(-6 * var(--vh-scale));
   .body {
     margin-left:30px;
   }
+  p {
+    font-size:9px;
+  }
   /* !! PAGE SPECIFIC STYLING */
   .design,
   .gridbox {
     grid-template-columns:1fr;
   }
-  .gridbox p {
-    font-size:9px;
+  .videobox div {
+    aspect-ratio:auto;
+  }
+  .videobox iframe {
+    height:auto;
   }
 }
