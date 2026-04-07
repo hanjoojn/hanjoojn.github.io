@@ -313,6 +313,10 @@ margin-top:calc(-6 * var(--vh-scale));
 }
 
 @media (max-width:768px) {
+  .mobile-header {
+    opacity:0;
+    pointer-events:none;
+  }
   .mobile-text {
     display: none;
     justify-content: center;
