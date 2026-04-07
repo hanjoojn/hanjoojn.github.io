@@ -332,6 +332,9 @@ margin-top:calc(-6 * var(--vh-scale));
   .mobile-header li {
     margin-top:0;
   }
+  .mobile-header .logo-box h {
+    font-size:calc(30 * var(--vh-scale));
+  }
   .mobile-header .column {
     align-items: center;
   }
