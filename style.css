@@ -342,6 +342,17 @@ margin-top:calc(-6 * var(--vh-scale));
     font-size:calc(40 * var(--vh-scale));
     margin-bottom:calc(40 * var(--vh-scale));
   }
+  .mobile-close {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .mobile-close svg {
+    fill: white;
+    margin: 10px;
+    display:block;
+  }
   .mobile-text {
     display: none;
     justify-content: center;
