@@ -71,6 +71,7 @@ height:100%;
 }
 
 .mobile-header {
+  display:none;
 }
 
 .body {
