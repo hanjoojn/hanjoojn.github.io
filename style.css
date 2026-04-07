@@ -332,6 +332,10 @@ margin-top:calc(-6 * var(--vh-scale));
   .mobile-header .column {
     align-items: center;
   }
+  .mobile-header .btn {
+    font-size:calc(40 * var(--vh-scale));
+    margin-bottom:calc(40 * var(--vh-scale));
+  }
   .mobile-text {
     display: none;
     justify-content: center;
