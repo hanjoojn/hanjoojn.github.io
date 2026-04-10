@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function navToggle() {
-  var x = document.getElementById("mobile-header-btn");
+  var x = document.getElementById("mobileHeader");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
