@@ -318,11 +318,11 @@ margin-top:calc(-6 * var(--vh-scale));
 
 @media (max-width:768px) {
   .mobile-header {
-    opacity: 0;
-    pointer-events: none;
-    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+    display: none;
     position: fixed;
-    z-index: 99999;
+    z-index: 999999;
     background: black;
     justify-content: center;
     align-items: center;
