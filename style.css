@@ -331,6 +331,7 @@ margin-top:calc(-6 * var(--vh-scale));
   }
   .mobile-header li {
     margin-top:0;
+    
   }
   .mobile-header .logo-box h {
     font-size:calc(30 * var(--vh-scale));
@@ -358,6 +359,10 @@ margin-top:calc(-6 * var(--vh-scale));
     justify-content: center;
     align-items: center;
   }
+  .main.flex {
+    flex-direction:column;
+    width:100%;
+  }
   .header {
     display:none;
   }
@@ -365,10 +370,28 @@ margin-top:calc(-6 * var(--vh-scale));
     margin-left:12.5px;
   }
   .body {
-    margin: 50px 30px;
+    margin: 10px 30px;
+    width: auto;
   }
   p {
     font-size:9px;
+  }
+  .mobile-header-btn {
+    position: sticky;
+    display: block;
+    top: 0;
+    background: black;
+    z-index: 99999;
+    height: 80px;
+  }
+  .mobile-header-btn-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-header_button {
+    fill:white;
   }
   /* !! PAGE SPECIFIC STYLING */
   .design,
