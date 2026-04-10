@@ -6,3 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
     sessionStorage.setItem("hasVisited", "true");
   }
 });
+
+function navToggle() {
+  var x = document.getElementById("mobile-header-btn");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
