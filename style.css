@@ -410,6 +410,9 @@ margin-top:calc(-6 * var(--vh-scale));
     height:30px;
     display:block;
   }
+  .logo-box {
+    display:none;
+  }
   /* !! PAGE SPECIFIC STYLING */
   .design,
   .gridbox,
