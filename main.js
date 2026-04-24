@@ -16,8 +16,8 @@ function navToggle() {
     x.style.display = "grid";
   }
   if (y.style.position === "fixed") {
-    y.style.display = "sticky";
+    y.style.position = "sticky";
   } else {
-    y.style.display = "fixed";
+    y.style.position = "fixed";
   }
 }
