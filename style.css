@@ -388,7 +388,7 @@ margin-top:calc(-6 * var(--vh-scale));
     top: 0;
     background: black;
     z-index: 99999;
-    height: 100%;
+    width: 100%;
   }
   .mobile-header-btn-wrapper {
     height: 100%;
