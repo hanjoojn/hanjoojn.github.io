@@ -323,6 +323,7 @@ margin-top:calc(-6 * var(--vh-scale));
     pointer-events: auto;
     display: none;
     position: fixed;
+    top:0;
     z-index: 99999;
     background: black;
     justify-content: center;
