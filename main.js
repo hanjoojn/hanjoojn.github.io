@@ -14,4 +14,9 @@ function navToggle() {
   } else {
     x.style.display = "grid";
   }
+  if (document.body.style.touchAction === "none") {
+    document.body.style.touchAction = "auto";
+  } else {
+    document.body.style.touchAction = "none";
+  }
 }
