@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function navToggle() {
   var x = document.getElementById("mobileHeader");
-  if (x.style.display === "grid") {
+  if (x.style.display === "flex") {
     x.style.display = "none";
   } else {
-    x.style.display = "grid";
+    x.style.display = "flex";
   }
   if (document.body.style.touchAction === "none") {
     document.body.style.touchAction = "auto";
