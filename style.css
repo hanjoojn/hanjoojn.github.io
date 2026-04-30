@@ -318,6 +318,9 @@ margin-top:calc(-6 * var(--vh-scale));
 }
 
 @media (max-width:768px) {
+  .body {
+    padding-top:50px;
+  }
   .mobile-header {
     opacity: 1;
     pointer-events: auto;
@@ -385,7 +388,7 @@ margin-top:calc(-6 * var(--vh-scale));
     font-size:9px;
   }
   .mobile-header-btn {
-    position: sticky;
+    position: fixed;
     display: block;
     top: 0;
     background: black;
