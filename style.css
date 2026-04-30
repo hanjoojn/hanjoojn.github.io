@@ -347,7 +347,7 @@ margin-top:calc(-6 * var(--vh-scale));
   }
   .mobile-header .btn {
     font-size:calc(40 * var(--vh-scale));
-    margin-bottom:calc(40 * var(--vh-scale));
+    margin:calc(20 * var(--vh-scale)) 0;
   }
   .mobile-close {
     display: block;
